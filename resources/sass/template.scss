@@ -1,0 +1,142 @@
+.flat-input {
+    border-radius: 0 !important;
+    border: 0;
+    border-bottom: 1px solid #ccc !important;
+}
+
+.custom-card-header {
+    border: 0 !important;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.main-color-background {
+    background: $primary;
+    color: $white;
+}
+
+.border-radius-15 {
+    border-radius: 15px;
+}
+
+nav.navbar {
+    background-color: transparent !important;
+    border-bottom: 1px solid #ccc !important;
+    .nav-item {
+        border: 0 !important;
+    }
+    a,
+    ul,
+    li,
+    li a,
+    span {
+        color: #666666 !important;
+    }
+    color: #666666 !important;
+}
+
+.btn-secondary,
+ul .btn-secondary,
+nav.navbar .btn-secondary {
+    background-color: rgb(61, 148, 212) !important;
+    font-weight: 200 !important;
+    color: $white !important;
+    font-size: 0.9em !important;
+    vertical-align: middle;
+    position: relative;
+    text-align: center;
+    display: inline-flex;
+    padding: 0.7em 1.3em !important;
+}
+
+.nav-link:hover {
+    background-color: transparent !important;
+}
+
+.border-0,
+nav.navbar.border-0 {
+    border: 0 !important;
+}
+
+.button-w-effect {
+    &:hover {
+        color: $white !important;
+        background-color: $info !important;
+    }
+}
+
+.vdatetime-input {
+    border: 0 !important;
+}
+
+li.notifs-button {
+    background-color: transparent !important;
+    border: 0 !important;
+    color: #333 !important;
+}
+
+.one-day-to-expire {
+    border-top: 1.3px solid rgba(235, 205, 214, 1);
+    border-bottom: 1.3px solid rgba(235, 205, 214, 1);
+    background: rgba(251, 236, 239, 1);
+}
+
+.three-day-to-expire {
+    border-top: 1.3px solid rgba(249, 235, 212, 1);
+    border-bottom: 1.3px solid rgba(249, 235, 212, 1);
+    background: rgba(255, 248, 236, 0.8);
+}
+
+.table th,
+.table td {
+    vertical-align: middle !important;
+}
+
+.product-span-box {
+    font-size: 16px;
+    font-weight: normal;
+    disply: inline-block;
+}
+
+.product-span-box-2 {
+    font-size: 19px;
+    font-weight: bold;
+    disply: inline-block;
+}
+
+.product-span-box-2 {
+    font-size: 0.5em !important;
+    font-weight: 200 !important;
+}
+
+.product-span-box-4 {
+    font-size: 16px;
+    font-weight: bold;
+    disply: inline-block;
+}
+
+.custom-product-row {
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 15px;
+}
+
+.custom-product-row-2 {
+    margin: 1em;
+    padding: 4em 1em 0 1em;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 15px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.text-align {
+    text-align: center;
+}
+
+.red-color {
+    color: red;
+}

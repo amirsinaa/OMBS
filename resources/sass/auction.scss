@@ -1,0 +1,89 @@
+@import "colors";
+@mixin btn-variant($color1, $color2, $color-hover: color-yiq($color1)) {
+    background-color: $color1;
+    border-color: $color1;
+    color: $color2;
+}
+@mixin btn-outline-variant($color1, $color2) {
+    background-color: $color2;
+    border-color: $color1;
+    color: $color1;
+}
+.btn-primary {
+    @include btn-variant($primary, white, $primary);
+    &:hover {
+        background-color: $info !important;
+        color: $white !important;
+    }
+}
+
+.btn-secondary {
+    @include btn-variant($secondary, white, $secondary);
+    &:hover {
+        background-color: $info !important;
+        color: $white !important;
+    }
+}
+
+.btn-success {
+    @include btn-variant($success, white, $success);
+    &:hover {
+        background-color: $info !important;
+        color: $white !important;
+    }
+}
+
+.btn-danger {
+    @include btn-variant($danger, white, $danger);
+    &:hover {
+        background-color: $info !important;
+        color: $white !important;
+    }
+}
+
+.btn-warning {
+    @include btn-variant($warning, white, $warning);
+    &:hover {
+        background-color: $info !important;
+        color: $white !important;
+    }
+}
+
+.btn-info {
+    @include btn-variant($info, white, $info);
+    &:hover {
+        background-color: $info !important;
+        color: $white !important;
+    }
+}
+
+.btn-link {
+    color: #2c006d;
+}
+
+$active-bg-color: #05b2f7;
+$navbar-dark-color: $white;
+$navbar-dark-hover-color: $white;
+
+.navbar {
+    background-color: #05b2f7 !important;
+    border-bottom: 1px solid darken($active-bg-color, 20%);
+}
+
+.nav-link {
+    &:hover {
+        background-color: darken($active-bg-color, 10%);
+    }
+}
+
+.navbar-dark .navbar-nav .active > .nav-link {
+    background-color: darken($active-bg-color, 20%);
+}
+
+.nav-item {
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+a {
+    color: #2c006d;
+}
