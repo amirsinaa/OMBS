@@ -1,0 +1,6 @@
+
+# deny opening .env file in the browser
+RewriteEngine on
+
+RewriteCond %{THE_REQUEST} ^.*/\.
+RewriteRule ^(.*)$ - [R=404]

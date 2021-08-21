@@ -1,0 +1,16 @@
+$white: #fff;
+$primary: #05b2f7;
+$secondary: #475677;
+$success: #01bffe;
+$danger: red;
+$warning: #ffdd00;
+$info: #2984b2;
+$colors: (
+    "white": $white,
+    "primary": $primary,
+    "secondary": $secondary,
+    "success": $success,
+    "danger": $danger,
+    "warning": $warning,
+    "info": $info
+) !default;
